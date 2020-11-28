@@ -1,5 +1,5 @@
 html {
-  background: url(background.jpg) no-repeat center center fixed; 
+  background: url(2.jpg) no-repeat center center fixed; 
   background-size: cover;
 }
 
@@ -56,6 +56,10 @@ hr {
   width: 350px;
 }
 
+.nav-dropdown {
+  display: inline-block;
+}
+
 .nav {
   border: 1px solid white;
   border-width: 1px 0;
@@ -63,14 +67,14 @@ hr {
   margin: 0;
   padding: 0;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 7.5%;
 }
 
 .nav li {
   display: inline;
 }
 
-.nav a{
+.nav a {
   display: inline-block;
   padding: 15px;
   letter-spacing: 2px;
@@ -106,9 +110,14 @@ th, td {
   margin-bottom: 0 !important;
 }
 
+.rule {
+  margin-top: 2%;
+}
+
 .dropbtn {
-  background-color: black;
+  background-color: transparent;
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -144,11 +153,12 @@ th, td {
   background-color: #f1f1f1
 }
 
-.dropdown:hover .dropdown-content {
+.nav-dropdown:hover .dropdown-content {
   display: block;
 }
-.dropdown:hover .dropbtn {
-  background-color: grey;
+
+.nav-dropdown:hover .dropbtn {
+  font-weight: bold;
 }
 
 .outer {
